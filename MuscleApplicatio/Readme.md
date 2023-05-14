@@ -1,16 +1,23 @@
-#1 Introduction
+1 Introduction
+
 MUSCLE is a program for creating multiple alignments of amino acid or nucleotide sequences. A range of options is provided that give you the choice of optimizing accuracy, speed, or some compromise between the two. Default parameters are those that give the best average accuracy in our tests. Using versions current at the time of writing, my tests show that MUSCLE can achieve both better average accuracy and better speed than CLUSTALW or T‑Coffee, depending on the chosen options. Many command line options are provided to vary the internals of the algorithm; some of these will primarily be of interest to algorithm developers who wish to better understand which features of the algorithm are important in different circumstances.
 
 #2 Quick Start
+
+
 The MUSCLE algorithm is delivered as a command-line program called muscle. If you are running under Linux or Unix you will be working at a shell prompt. If you are running under Windows, you should be in a command window (nostalgically known to us older people as a DOS prompt). If you don't know how to use command-line programs, you should get help from a local guru.
 
 #1 Introduction
 MUSCLE is a program for creating multiple alignments of amino acid or nucleotide sequences. A range of options is provided that give you the choice of optimizing accuracy, speed, or some compromise between the two. Default parameters are those that give the best average accuracy in our tests. Using versions current at the time of writing, my tests show that MUSCLE can achieve both better average accuracy and better speed than CLUSTALW or T‑Coffee, depending on the chosen options. Many command line options are provided to vary the internals of the algorithm; some of these will primarily be of interest to algorithm developers who wish to better understand which features of the algorithm are important in different circumstances.
 
 #2 Quick Start
+
+
 The MUSCLE algorithm is delivered as a command-line program called muscle. If you are running under Linux or Unix you will be working at a shell prompt. If you are running under Windows, you should be in a command window (nostalgically known to us older people as a DOS prompt). If you don't know how to use command-line programs, you should get help from a local guru.
 
-#2.1 Installation
+2.1 Installation
+
+
 Copy the muscle binary file to a directory that is accessible from your computer. That's it—there are no configuration files, libraries, environment variables or other settings to worry about. If you are using Windows, then the binary file is named muscle.exe. From now on muscle should be understood to mean "muscle if you are using Linux or Unix, muscle.exe if you are using Windows".
 
 #2.2 Making an alignment
